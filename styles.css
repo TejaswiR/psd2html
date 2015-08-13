@@ -16,7 +16,7 @@ body {
     top: 50%;
     transform: translateY(-50%); }
   #land .vcenter a, #land .vcenter a:hover {
-    background-color: #8724CD;
+    background-color: red;
     color: #FFFFFF;
     text-decoration: none; }
 
