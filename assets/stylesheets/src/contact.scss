@@ -1,0 +1,20 @@
+#contact {
+  background-color:  #00688B  ;
+  padding: 20vh 0;
+  color: #FFF;
+
+h2 {
+  font-size: 1.1em;
+  font-weight:  bold;
+  text-transform:  uppercase;
+}
+
+p.excerpt {
+     font-size:  1.1em;
+  }
+  a {
+    &, &:hover{
+      color: #FFF;
+    }
+  }
+}
