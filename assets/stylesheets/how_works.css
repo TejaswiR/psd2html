@@ -1,38 +1,39 @@
-/*
-Error: Invalid CSS after "    }": expected "}", was ""
-        on line 56 of assets/stylesheets/src/how_works.scss
+#how_works .img-container {
+  padding: 0; }
+#how_works h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  font-transform: uppercase;
+  margin-top: 3em; }
+#how_works p.excerpt {
+  font-size: 1.1em;
+  margin: 2em  0; }
 
-51: 
-52:       .meta-info{
-53:         font-size: 0.7em;
-54:       }
-55:     }
+#how_works_action {
+  background-image: url("../images/tree.jpg");
+  background-size: cover;
+  background-position: 50% 0;
+  text-align: center;
+  padding-top: 10vh;
+  color: #FFFFFF; }
+  #how_works_action .action-container {
+    background-color: rgba(96, 10, 157, 0.7);
+    padding: 10vh 0 15vh; }
+  #how_works_action p {
+    color: #E6B7FD;
+    max-width: 60vw;
+    margin: 10vh auto; }
+  #how_works_action a, #how_works_action a:hover {
+    background-color: #AE4EF2;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 3em;
+    height: 3em;
+    display: inline-block;
+    line-height: 3em;
+    margin-bottom: 1em;
+    border-radius: 1.5em; }
+  #how_works_action a .meta-info {
+    font-size: 0.7em; }
 
-Backtrace:
-assets/stylesheets/src/how_works.scss:56
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:1093:in `tok!'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:640:in `block'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:632:in `ruleset'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:657:in `block_child'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:650:in `block_contents'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:117:in `stylesheet'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/scss/parser.rb:42:in `parse'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:410:in `run'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/exec/base.rb:52:in `parse'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/lib/sass/exec/base.rb:19:in `parse!'
-/home/teju/.rvm/gems/ruby-2.2.2/gems/sass-3.4.16/bin/sass:13:in `<top (required)>'
-/home/teju/.rvm/gems/ruby-2.2.2/bin/sass:23:in `load'
-/home/teju/.rvm/gems/ruby-2.2.2/bin/sass:23:in `<main>'
-/home/teju/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `eval'
-/home/teju/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    }\": expected \"}\", was \"\"\A         on line 56 of assets/stylesheets/src/how_works.scss\A \A 51: \A 52:       .meta-info{\A 53:         font-size: 0.7em;\A 54:       }\A 55:     }"; }
+/*# sourceMappingURL=how_works.css.map */
