@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,yBAAe;EACX,OAAO,EAAE,CAAC",
+"sources": ["src/how_works.scss"],
+"names": [],
+"file": "how_works.css"
+}
