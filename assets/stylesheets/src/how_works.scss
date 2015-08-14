@@ -1,17 +1,55 @@
-      #how_works  {
-        .img-container {
-          padding: 0;
-        }
-
-        h3 {
-          font-size: 1.1em;
-          font-weight: bold;
-          font-transform: uppercase;
-          margin-top: 3em;
-        }
-
-        p.experct: {
-          font-size:  1.1em;
-          margin: 2em  0;
-        }
+    #how_works  {
+      .img-container {
+        padding: 0;
       }
+
+      h3 {
+        font-size: 1.1em;
+        font-weight: bold;
+        font-transform: uppercase;
+        margin-top: 3em;
+      }
+
+      p.excerpt {
+        font-size:  1.1em;
+        margin: 2em  0;
+      }
+    }
+
+    #how_works_action {
+      background-image: url('../images/tree.jpg');
+      background-size: cover;
+      background-position: 50% 0;
+      text-align:  center;
+      padding-top: 10vh;
+      color: #FFFFFF;
+
+      .action-container{
+        background-color: rgba(96, 10, 157, 0.7 );
+        padding: 10vh 0 15vh;
+      }
+
+      p{
+        color: #E6B7FD;
+        max-width: 60vw;
+        margin: 10vh auto;
+      }
+
+      a {
+         &, &:hover {
+          background-color: #AE4EF2;
+          color: #FFF;
+          text-decoration: none;
+          padding: 0 3em;
+          height: 3em;
+          display: inline-block;
+          line-height: 3em;
+          margin-bottom:  1em;
+          border-radius:  1.5em;
+        }
+      
+
+      .meta-info{
+        font-size: 0.7em;
+      }
+    }
