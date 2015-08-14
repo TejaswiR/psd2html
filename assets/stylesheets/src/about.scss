@@ -1,0 +1,61 @@
+#about {
+  background-color: #808069;
+  color: #FFFFFF;
+  padding: 15vh 0;
+ 
+   h3{
+      text-transform:  uppercase;
+      font-size: 1.1em;
+      font-weight: bold;
+   }
+
+   p{
+    font-weight:  300;
+   }
+}
+
+#about-action {
+  background-color: #E3CF57;
+  color: #FFFFFF;
+  padding:  25vh 0;
+  text-align:  center;
+  background-image: url('../images/forest.jpg');
+  background-size:  cover;
+  background-position:  50% 100%;
+  position: relative;
+
+  .triangle{
+     top: 0;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 0;
+     height: 0px;
+     border-top: 8vh solid #808069;
+     border-right:  8vw solid transparent;
+     border-left:  8vw solid transparent;
+     }
+
+  h2{
+    margin-bottom: 0.5em;
+  }
+  
+  p{
+     max-width:  50vw;
+     margin: 0 auto;
+  }
+
+  a{
+    background-color: #FFFFFF;
+    color: #808000;
+    display:  inline-block;
+    margin-top: 2em ;
+    padding: 0em 3em;
+    line-height:  3em;
+    border-radius: 1.5em;
+
+    &:hover{
+      text-decoration:  none;
+    }
+  }
+}

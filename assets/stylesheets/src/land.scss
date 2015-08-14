@@ -1,21 +1,31 @@
 
-#land {
-  width: 100%;
-  height: 100vh;
-  background-image: url('../images/sky3.jpg');
-  background-size:cover;
-  background-position:50% 50%;
-  background-repeat:no-repeat;
-  color: #FFFFFF;
-  text-align: right;
+        #land {
+          width: 100%;
+          height: 100vh;
+          background-image: url('../images/sky3.jpg');
+          background-size:cover;
+          background-position:50% 50%;
+          background-repeat:no-repeat;
+          color: #FFFFFF;
+          text-align: right;
 
 
 
-  a {
-   &, &:hover {
-    background-color: #8724CD;
-    color: #FFFFFF;
-    text-decoration: none;
-  }
-}
+        a {
+            font-size: 1.1em;
+            padding: 1em 3em;
+            border-radius: 1.5em;
+            font-weight: bold;
+            margin: 1em  0; 
+            display: inline-block;
+
+            &, &:hover {
+              background-color: #808080;
+              color: #FFFFFF;
+              text-decoration: none;
+            }
+      }
+      .meta-info {
+           font-size:  0.85em;
+      }
 }

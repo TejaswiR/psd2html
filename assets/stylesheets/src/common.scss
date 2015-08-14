@@ -7,3 +7,54 @@
             top: 50%;
             transform: translateY(-50%);
     }
+
+
+        header{
+          nav.navbar{
+            margin: 0;
+            border-color: #808080;
+            border-width: 0 0 1px 0;
+            border-color:  rgba(255, 255, 255, 0.10);
+
+            form {
+              input {
+                 height: 2.4em;
+                 border-radius: 1.2em;  
+              }
+
+              i.fa {
+                margin-left:  -2.2em;
+                color: rgba(0, 0, 0,0.3 );
+              }
+            }
+
+            a.navbar-brand {
+              .name {
+                color: #f6ba00;
+                 font-size:  1.2em;
+              }
+              .tagline {
+                color: #FFFFFF;
+                font-size:  0.7em;
+                padding-left:  0.5em;
+              }
+            }
+
+            &.navbar-default .navbar-nav>li>a {
+             &, &:hover, & :visited,  &:link {
+               color: #FFF;
+               border-bottom: 3px solid transparent;
+               transition: border-color 0.3s ease-in; 
+              }
+              
+              &:hover{
+                border-color:  #FFF;
+              }
+         }
+    }
+}
+    .navbar{
+      background-color:  transparent;
+      
+
+}

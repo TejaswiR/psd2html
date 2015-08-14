@@ -7,9 +7,18 @@
   background-repeat: no-repeat;
   color: #FFFFFF;
   text-align: right; }
-  #land a, #land a:hover {
-    background-color: #8724CD;
-    color: #FFFFFF;
-    text-decoration: none; }
+  #land a {
+    font-size: 1.1em;
+    padding: 1em 3em;
+    border-radius: 1.5em;
+    font-weight: bold;
+    margin: 1em  0;
+    display: inline-block; }
+    #land a, #land a:hover {
+      background-color: #808080;
+      color: #FFFFFF;
+      text-decoration: none; }
+  #land .meta-info {
+    font-size: 0.85em; }
 
 /*# sourceMappingURL=land.css.map */
