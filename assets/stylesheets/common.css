@@ -8,10 +8,13 @@ body {
   transform: translateY(-50%); }
 
 header nav.navbar {
-  margin: 0;
-  border-color: #808080;
+  margin-bottom: 0;
   border-width: 0 0 1px 0;
-  border-color: rgba(255, 255, 255, 0.1); }
+  border-color: rgba(255, 255, 255, 0.15); }
+  header nav.navbar.affix {
+    background-color: #808069; }
+  header nav.navbar.affix-top {
+    background-color: transparent; }
   header nav.navbar form input {
     height: 2.4em;
     border-radius: 1.2em; }
@@ -28,9 +31,14 @@ header nav.navbar {
   header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a :visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
     color: #FFF;
     border-bottom: 3px solid transparent;
-    transition: border-color 0.3s ease-in; }
+    transition: border-color 0.3s ease-in;
+    background-color: transparent; }
   header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+    border-color: rgba(255, 255, 255, 0.4); }
+  header nav.navbar.navbar-default .navbar-nav > li.active a {
     border-color: #FFF; }
+    header nav.navbar.navbar-default .navbar-nav > li.active a, header nav.navbar.navbar-default .navbar-nav > li.active a:hover, header nav.navbar.navbar-default .navbar-nav > li.active a :visited, header nav.navbar.navbar-default .navbar-nav > li.active a:link {
+      background-color: transparent; }
 
 .navbar {
   background-color: transparent; }
