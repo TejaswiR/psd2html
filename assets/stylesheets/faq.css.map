@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACE,0BAAe;EACZ,OAAO,EAAE,CAAC",
+"mappings": "AACM,mBAAe;EACb,OAAO,EAAE,CAAC;AAGZ,OAAG;EACD,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;EACzB,UAAU,EAAE,GAAG;AAGjB,cAAU;EACR,SAAS,EAAG,KAAK;EACjB,MAAM,EAAE,MAAM",
 "sources": ["src/faq.scss"],
 "names": [],
 "file": "faq.css"

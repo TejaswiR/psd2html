@@ -1,4 +1,12 @@
-section#faq .img-container {
+#faq .img-container {
   padding: 0; }
+#faq h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 3em; }
+#faq p.excerpt {
+  font-size: 1.1em;
+  margin: 2em  0; }
 
 /*# sourceMappingURL=faq.css.map */
