@@ -34,7 +34,7 @@ module.exports = function(grunt) {
                   'assets/stylesheets/about.css',
                   'assets/stylesheets/how_works.css',
                   'assets/stylesheets/services.css',
-                  'assets/stylesheets/contact.css',
+                  'assets/stylesheets/contact.css'
                  ],
                 }
               }
